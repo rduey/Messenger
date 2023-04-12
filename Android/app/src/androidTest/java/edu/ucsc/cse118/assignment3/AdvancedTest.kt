@@ -26,8 +26,8 @@ class AdvancedTest {
     private val id = 3
 
     private fun login() {
-        typeTo(R.id.email, "rduey@ucsc.edu")
-        typeTo(R.id.password, "1669498")
+        typeTo(R.id.email, "email@email.com")
+        typeTo(R.id.password, "password")
         clickOn("LOGIN")
     }
 

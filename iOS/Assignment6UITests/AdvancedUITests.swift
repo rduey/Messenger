@@ -21,10 +21,10 @@ final class AdvancedUITests: XCTestCase {
         return element
     }
     
-    private func login(_ email: String = "rduey@ucsc.edu", passwd: String = "1669498") {
+    private func login(_ email: String = "email@email.com", passwd: String = "password") {
         let email = app.textFields["EMail"]
         email.tap()
-        email.typeText("rduey@ucsc.edu")
+        email.typeText(email)
         let password = app.secureTextFields["Password"]
         password.tap()
         password.typeText(passwd)
